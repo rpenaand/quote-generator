@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+span {
+  display: inline-block;
+}
+
+.quote-container {
+  background-color: white;
+  width: 50vw;
+  padding: 4.8rem 2.4rem;
+  text-align: center;
+  box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.6rem;
+}
+
+.anime {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.quote {
+  font-size: 3rem;
+  margin-bottom: 1.8rem;
+}
+
+.character {
+  font-size: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.btn {
+  background: rgb(32, 137, 207);
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 1.2rem 3.2rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: none;
+  transform: translateY(-0.3rem);
+}
